@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    float: left;
+    width: calc(25% - 20px);
+    margin: 0 10;
+}
+a:hover .image-box {
+    border: 2px solid green;
+}
+.image-box {
+    width: 100%;
+    border: 1px solid black;
+    
+}
+.image-box img {
+    width: 100%;
+}
+.image-box p {
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    font-size:  18px;
+}
